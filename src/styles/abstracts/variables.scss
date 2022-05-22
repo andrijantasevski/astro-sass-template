@@ -1,0 +1,15 @@
+@use "sass:math";
+
+@function rem-calc($size) {
+    @return (math.div($size, 16)) * 1rem;
+  }
+  
+// FONT SETTINGS
+
+$font-family: 'Inter', sans-serif;
+
+// SIZE SETTINGS
+
+$gutter-base: rem-calc(30);
+
+// COLOR SETTINGS
